@@ -29,7 +29,7 @@
 }
 
 .Header button {
-    padding: 8px 20px;
+    padding: 5px 15px;
     font-size: 20px;
     background: #56CCF2;
     border-radius: 10px;
@@ -38,6 +38,13 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.Header button:hover {
+    background: #c2ecff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px) translateX(2px);
 }
 
 @media (max-width: 640px) {
